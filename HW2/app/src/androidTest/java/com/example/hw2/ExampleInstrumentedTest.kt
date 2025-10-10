@@ -1,4 +1,4 @@
-package com.example.elearning1
+package com.example.hw2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -17,7 +17,8 @@ import org.junit.Assert.*
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
+        // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.elearning1", appContext.packageName)
+        assertEquals("com.example.hw2", appContext.packageName)
     }
 }

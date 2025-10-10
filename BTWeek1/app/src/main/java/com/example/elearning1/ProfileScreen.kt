@@ -27,12 +27,12 @@ fun ProfileScreen() {
             TopAppBar(
                 title = {},
                 navigationIcon = {
-                    IconButton(onClick = { /* TODO: back */ }) {
+                    IconButton(onClick = { }) {
                         Icon(Icons.Outlined.ArrowBack, contentDescription = "Back")
                     }
                 },
                 actions = {
-                    IconButton(onClick = { /* TODO: edit */ }) {
+                    IconButton(onClick = { }) {
                         Icon(Icons.Outlined.Edit, contentDescription = "Edit")
                     }
                 }
@@ -65,7 +65,7 @@ fun ProfileCard(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-        // Vòng tròn nền xanh nhạt
+
         Box(
             modifier = Modifier
                 .size(132.dp)
